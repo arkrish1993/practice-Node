@@ -1,4 +1,4 @@
-const { default: expect } = require("expect");
+const axios = require("axios");
 
 const forEach = (items, callback) => {
   for (let i = 0; i < items.length; i++) {
